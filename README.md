@@ -1,95 +1,59 @@
-# Kali Linux setup and Configuration.
+<h1>Setting Up Attacker VM /Kali Linux </h1>
 
----
 
-first  download kali Iso: https://www.kali.org/get-kali/#kali-installer-images
+<h2>Description</h2>
+A practical, step-by-step guide to installing, configuring, and preparing Kali Linux as a penetration testing attacker machine in Oracle VirtualBox. Covers virtual machine setup, network configuration, post-installation setup, essential security tools, verification, troubleshooting, and lab documentation for cybersecurity learners.
+<br />
 
-than after dwnloading the iso file install 
 
-vmware: https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+<h2>Utilities Used</h2>
 
- or
+- <b>Browser .ex; Google chrome</b> 
+- <b>Virtualbox</b>
+- <b>Kali Linux ISO</b>
 
- virtualbox : https://www.virtualbox.org/wiki/Downloads
 
-than after installing one of them,
+<h2>Environments Used </h2>
 
-the procedure to create the  vm is to open an app ,I’m showing virtualbox:
+- <b>lightdm</b> 
 
-first click new than add things:
+<h2>Program walk-through:</h2>
 
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image.png)
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
-Next you’ll be shown your ram ,storage & processor allocation keep it within your device range.
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%201.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%202.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%203.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%204.png)
-
-follow each steps accordingly .
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%205.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%206.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%207.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%208.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%209.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2010.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2011.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2012.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2013.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2014.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2015.png)
-
-next the base system will install just like this : 
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2016.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2017.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2018.png)
-
-after selecting it will auto download and install.
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2019.png)
-
-once it is done it will automatically install grub bootloader & ask for reboot.
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2020.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2021.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2022.png)
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2023.png)
-
-just press reboot.
-
-than It’ll reboot and start automatically .than close it .
-
-now for network setup:
-
-goto file→tools→network→ NAT networks and do configuration like this manually.
-
-![image.png](Kali%20Linux%20setup%20and%20Configuration/image%2024.png)
-
-than start kali :
-
-![Screenshot From 2026-10-29 09-39-37.png](Kali%20Linux%20setup%20and%20Configuration/Screenshot_From_2026-10-29_09-39-37.png)
-
-![Screenshot From 2026-10-29 09-38-37.png](Kali%20Linux%20setup%20and%20Configuration/Screenshot_From_2026-10-29_09-38-37.png)
-
-thus the installation is completed and attacker machine & kali Linux is ready !!
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
